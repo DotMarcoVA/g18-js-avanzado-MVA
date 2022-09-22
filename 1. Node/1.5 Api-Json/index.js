@@ -2,7 +2,7 @@
 // localhost:8080/patitos => JSON { data: [ { name = "donald"}, { name = "lucas"}]}
 // localhost:8080/pokemones => Not Found
 // localhost:8080/admin => 401
-
+var colors = require("colors");
 const http = require("http");
 const url = require("url");
 const fs = require("fs");
@@ -51,11 +51,13 @@ const server = http.createServer((request, response) => {
             const status = 404;
             const mymeType = { "Content-type": "text/html" };
             response.writeHead(status, mymeType);
-            response.write(`<html> <body> <img src="https://http.cat/404" alt=""> </body> </html>`);
+            response.write(`<html> <body> <img src="https://http.cat/401" alt=""> </body> </html>`);
             response.end();
         }
     });
 });
 
 server.listen(8080);
-console.log("Server ejecutandose...");
+console.log("Server ejecutandose...".rainbow);
+console.log("Server ejecutandose...".trap);
+console.log("Server ejecutandose...".inverse);

@@ -1,10 +1,50 @@
 Definir los siguientes conceptos:
 
-Entorno de ejecución.
-Manejador de paquetes.
+Entorno de ejecución  // Programa o Software encargado de proveer los servicios y paquetes necesarios
+para la ejecucion de un programa
+
+Manejador de paquetes. // Sistema o programa encargado de gestionar la instalacion, actualizacion, configuracion e integridad
+de las diferentes paqueterias de software empleadas en un Sistema
+
 Diferencia entre node y npm.
+
+Node es el entorno que permite ejecutar JavaScript fuera del navegador 
+NPM de las siglas de Node Package Manager, es un manejador de paquetes de Node
+
+
 CLI, comando, dependencia, gestor de dependencia, dependencia de desarrollo y script.
+
+CLI: Command-Line Interface, Interface de Linea de Comandos, es la interfaz donde se permite la realizacion de diversas
+acciones en la computadora mediante comandos escritos
+
+Comando: Instruccion especifica que se le da a unu computador para su realizacion
+
+Dependencia: Se refiere a la necesidad o requerimento de la existencia o ejecucion de ciertos datos o programas para la correcta
+ejecucion de otra accion en especifico
+
+Gestor de Dependencia: Un gestor de dependencias es una herramienta la cual lleva un registro de los recursos existentes en un proyecto
+asi como la relacion de dependencia que tengan entre si 
+
+Dependencia de Desarrollo: Paquetes o recursos necesarios para el desarrollo de software que, una vez concluido, no son requeridas
+
+Script: Secuencia de comandos a ser ejecutados para realizar una acccion
+
 Cliente y servidor.
+
+Cliente: De forma generalizada, el Cliente es un dispositivo, servicio, programa o archivo el cual hace solicitudes a un Servidor esperando una respuesta
+Servidor: El servidor generalmente es un Dispositivo que posee diversos servicios que le permita recibir solicitudes y enviar respuestas. Existen 
+diversos tipos de servidores que responden a diferentes tipos de solicitudes. 
+
 API.
+
+Interfaz de programacion de aplicaciones (API), es un conjunto de definiciones, protocolos y mecanismos que permiten a dos componentes de software 
+mantener una comunicacion entre si e intercambiar informacion.
+
 Módulo.
+
+Es un elemento que posee unas funciones especificas el cual puede ejecutar diversas acciones en conjunto de otros modulos y puede o no ser dependiente de ellos
+
 Paquete.
+
+Coleccion o conjunto de archivos, directorios o aplicaciones las cuales son de utilidad para el desarrollo o ejecucion de un producto de software.
+Estos resuelven alguna necesidad que se tenga en el desarrollo 
