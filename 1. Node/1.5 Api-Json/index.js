@@ -51,7 +51,7 @@ const server = http.createServer((request, response) => {
             const status = 404;
             const mymeType = { "Content-type": "text/html" };
             response.writeHead(status, mymeType);
-            response.write(`<html> <body> <img src="https://http.cat/401" alt=""> </body> </html>`);
+            response.write(`<html> <body> <img src="https://http.cat/404" alt=""> </body> </html>`);
             response.end();
         }
     });
