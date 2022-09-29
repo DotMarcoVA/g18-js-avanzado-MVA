@@ -1,0 +1,34 @@
+{
+    "name": "4.-apis",
+    "version": "1.0.0",
+    "description": "Consumo de APIs de Distintas Formas",
+    "main": "index.js",
+    "scripts": {
+        "native": "nodemon native.js",
+        "fetch": "nodemon fetch.js",
+        "axios": "nodemon axios.js",
+        "request": "nodemon request.js",
+        "unirest": "nodemon unirest.js"
+    },
+    "keywords": [
+        "API",
+        "fetch",
+        "axios",
+        "unirest",
+        "request",
+        "get",
+        "post"
+    ],
+    "author": "DotMarcoVA",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cross-fetch": "^3.1.5",
+        "follow-redirects": "^1.15.2",
+        "request": "^2.88.2",
+        "unirest": "^0.6.0"
+    }
+}

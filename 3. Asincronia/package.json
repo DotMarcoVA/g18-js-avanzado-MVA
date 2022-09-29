@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "node-fetch": "^3.2.10"
+  },
+  "name": "3.-asincronia",
+  "version": "1.0.0",
+  "main": "3.1 sincrono-asincrono.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
